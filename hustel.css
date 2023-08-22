@@ -1,0 +1,231 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+
+.nav{
+    background: black;
+    opacity: 0.9;
+    position: sticky;
+    top: 0;
+}
+
+.container{
+    padding: 10px;
+}
+
+.logo{
+    height: 70px;
+    width: 80px;
+
+}
+
+.flex{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin: 10px;
+    padding: 9px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.text a{
+  font-size: 23px;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+
+.ak{
+   margin-left: auto;
+}
+
+
+.primary-button{
+    background: linear-gradient(rgb(230, 35, 35), rgba(228, 33, 33, 0.836));
+    border-radius: 90px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.secondary-button{
+border: 2px white solid;
+border-radius: 90px;
+font-weight: 500;
+cursor: pointer;
+}
+
+.float{
+    margin-left: auto;
+    gap: 11px;
+}
+
+.text a:hover{
+    font-size: 26px;
+}
+
+.nav::before{
+    content: '';
+    background-color: black;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    flex-direction: column;
+
+}
+
+#tate{
+    max-width: 100%;
+    height: 100vh;
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+section .main{
+    padding: 40px;
+    display: flex;
+    background: url(./black-background-04-coolbackgrounds.png);
+}
+
+
+ #red{
+    color: orangered;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+
+#box{
+    padding: 8px;
+    display: flex;
+    width: 120px;
+    height: 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border-radius: 20px;
+    background-color: #08080d;
+    background-image: linear-gradient(1deg, #13131a, #1f1f1f);
+    box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.68);
+    text-decoration: none;
+}
+h4{
+    font-size: 12px;
+    color: whitesmoke;
+}
+
+.dup{
+    flex: auto;
+    padding: 40px;
+    display: flex;
+    background: url(../img/black-background-04-coolbackgrounds.png);
+
+    flex-direction: row;
+    padding: 10px;
+}
+
+#blank{
+    color: black;
+    margin-top: 50px;
+    height: 40vh;
+    width: 100%;
+}
+
+.no-background{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+ #gaph{
+    color: black;
+}
+
+.rumble{
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    padding: 30px;
+}
+
+.pole, .pole-s{
+    height: 500px;
+    width: 500px;
+   
+}
+
+.tab{
+    padding: 18px;
+    color: whitesmoke;
+}
+
+.cards{
+    margin-top: 80px;
+    height: 200vh;
+    background: gray;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.flex-card{
+    background: #1f1f1f;
+    border-radius: 80px;
+    margin: 25px;
+    
+}
+
+#white{
+    color: white;
+}
+
+.tab{
+    margin: 5px;
+}
+
+#logo{
+   width: 100px;
+   height: 100px;
+   margin-top: 50px;
+}
+
+
+.container-footer{
+    background: black;
+    height: 40vh;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.quick-links a{
+    color: white;
+    padding: 12px;
+    margin: 15px;
+}
